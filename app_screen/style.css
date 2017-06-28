@@ -259,6 +259,7 @@ body.dark .button {
 
 ul.options {
   background-color: #fff;
+  color: #000;
 }
 
 ul.options li {
@@ -277,9 +278,10 @@ ul.options li:active {
 
 ul.options li img {
   background-color: #000831;
-  width:45px;
-  padding: 5px;
+  width: 55px;
+  padding: 10px;
   display: inline;
+  margin-right: 15px;
 }
 
 ul.options li span.glyphicon {
