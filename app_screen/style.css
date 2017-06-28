@@ -296,11 +296,12 @@ ul.options li span.glyphicon {
 }
 
 #backButton {
-  position: fixed;
-  left: 45%;
-  top: 10px;
-  height: 48px;
-  z-index: 99999;
+	position: fixed;
+	right: 10px;
+	height: 30px;
+	background-color: #4D6A79;
+	z-index: 99999;
+	top: 10px;
 }
 
 #backButton a {
@@ -315,7 +316,7 @@ ul.options li span.glyphicon {
   top: 0px;
   height: 55px;
 	width: 100%;
-	background-color: #888;
+	background-color: #4D6A79;
   z-index: 9;
 	font-size: 20pt;
 	color:#ddd;
