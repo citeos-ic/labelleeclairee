@@ -271,6 +271,12 @@ ul.options li {
   cursor: pointer;
   border-bottom: 1px solid #eee;
 }
+
+ul.options li a, ul.options li a:hover, ul.options li a:active {
+  color:#000;
+  text-decoration: none
+}
+
 ul.options li:active {
   background-color: #ddd;
   color: #000;
@@ -287,4 +293,21 @@ ul.options li img {
 ul.options li span.glyphicon {
   width: 40px;
   font-size: 16px;
+}
+
+#backButton {
+  display:static;
+  left:10px;
+  top: 10px;
+  width:45px;
+  height:45px;
+  z-index: 100;
+}
+
+.mock {
+  position: absolute;
+  left:0px;
+  top:0px;
+  z-index: 0;
+  width: 100%;
 }
