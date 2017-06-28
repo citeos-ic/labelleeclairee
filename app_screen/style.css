@@ -296,12 +296,31 @@ ul.options li span.glyphicon {
 }
 
 #backButton {
-  display:static;
-  left:10px;
+  position: fixed;
+  left: 45%;
   top: 10px;
-  width:45px;
-  height:45px;
-  z-index: 100;
+  height: 48px;
+  z-index: 99999;
+}
+
+#backButton a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15pt;
+}
+
+#backButtonBar {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  height: 55px;
+	width: 100%;
+	background-color: #888;
+  z-index: 9;
+	font-size: 20pt;
+	color:#ddd;
+	padding: 5px;
+	padding-left: 10px;
 }
 
 .mock {
@@ -309,5 +328,14 @@ ul.options li span.glyphicon {
   left:0px;
   top:0px;
   z-index: 0;
-  width: 100%;
+  width:100%;
+  height:100%;
+}
+
+.mockimg {
+  position: absolute;
+  left:0px;
+  top:0px;
+  z-index: 0;
+  width:100%;
 }
