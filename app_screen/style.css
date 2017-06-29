@@ -62,8 +62,8 @@ input {
 }
 
 body.dark input {
-	background: #111111;
-	color: #636363;
+	background: transparent;
+	color: #fff;
 	border-bottom: 1px solid #afafaf;
 }
 
