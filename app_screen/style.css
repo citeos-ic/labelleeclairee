@@ -265,11 +265,13 @@ ul.options {
 ul.options li {
   background-color: #fff;
   color: #333;
-  font-weight: 600;
   margin: 0px;
   transition: all .1s ease;
   cursor: pointer;
   border-bottom: 1px solid #eee;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 ul.options li a, ul.options li a:hover, ul.options li a:active {
